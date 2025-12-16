@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    const defaultWaNumber = "6385924411619";
+    const defaultWaNumber = "6285924411619";
 
     function buildWhatsAppUrl(name, email, whatsapp, message) {
         const target = defaultWaNumber;
