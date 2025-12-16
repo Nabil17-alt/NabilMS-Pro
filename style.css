@@ -1,3 +1,132 @@
+.backtest-summary {
+    background: radial-gradient(circle at top left, rgba(59, 130, 246, 0.13), transparent 60%), #0f172a;
+    border-bottom: 1px solid rgba(59, 130, 246, 0.08);
+}
+
+.backtest-metrics {
+    margin: 0 auto 2.2rem auto;
+    max-width: 540px;
+    background: rgba(15, 23, 42, 0.93);
+    border-radius: 1.1rem;
+    border: 1px solid rgba(59, 130, 246, 0.18);
+    box-shadow: 0 8px 32px rgba(15, 23, 42, 0.18);
+    padding: 1.5rem 1.7rem 1.1rem 1.7rem;
+}
+
+.backtest-metrics ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #d1d5db;
+    font-size: 0.98rem;
+    display: grid;
+    gap: 0.45rem;
+}
+
+.backtest-metrics li strong {
+    color: #60a5fa;
+    font-weight: 600;
+}
+
+.backtest-analysis {
+    margin: 0 auto 2.2rem auto;
+    max-width: 700px;
+    background: rgba(15, 23, 42, 0.93);
+    border-radius: 1.1rem;
+    border: 1px solid rgba(59, 130, 246, 0.13);
+    box-shadow: 0 8px 32px rgba(15, 23, 42, 0.13);
+    padding: 1.3rem 1.5rem 1rem 1.5rem;
+}
+
+.backtest-analysis h3 {
+    color: #e5e7eb;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+}
+
+.backtest-analysis ul {
+    color: #9ca3af;
+    font-size: 0.97rem;
+    padding-left: 1.2rem;
+    margin: 0;
+    list-style: disc;
+    display: grid;
+    gap: 0.35rem;
+}
+
+.backtest-conclusion {
+    margin: 0 auto 2.2rem auto;
+    max-width: 700px;
+    background: rgba(15, 23, 42, 0.97);
+    border-radius: 1.1rem;
+    border: 1px solid rgba(59, 130, 246, 0.13);
+    box-shadow: 0 8px 32px rgba(15, 23, 42, 0.13);
+    padding: 1.3rem 1.5rem 1rem 1.5rem;
+}
+
+.backtest-conclusion h3 {
+    color: #e5e7eb;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+}
+
+.backtest-conclusion p {
+    color: #9ca3af;
+    font-size: 0.97rem;
+    margin: 0;
+}
+
+.backtest-images {
+    margin: 0 auto 2.2rem auto;
+    max-width: 900px;
+}
+
+.backtest-images h3 {
+    color: #e5e7eb;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.backtest-images {
+    display: block;
+}
+
+.backtest-images figure {
+    background: rgba(15, 23, 42, 0.93);
+    border-radius: 0.9rem;
+    border: 1px solid rgba(59, 130, 246, 0.13);
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.13);
+    padding: 0.7rem 0.7rem 0.3rem 0.7rem;
+    margin: 0;
+}
+
+.backtest-images img {
+    max-width: 100%;
+    border-radius: 0.7rem;
+    box-shadow: 0 8px 32px #0008;
+    display: block;
+    margin: 0 auto;
+}
+
+.backtest-images figcaption {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.92rem;
+    margin-top: 0.4rem;
+}
+
+@media (max-width: 900px) {
+    .backtest-images {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .backtest-images {
+        grid-template-columns: minmax(0, 1fr) !important;
+    }
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
